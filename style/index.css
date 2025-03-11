@@ -1,0 +1,25 @@
+body{
+    background-color: cadetblue;
+    align-items: center;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header{
+    color:white;
+}
+.links{
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.buttons{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
