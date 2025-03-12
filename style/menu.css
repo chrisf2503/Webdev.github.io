@@ -1,0 +1,10 @@
+table, th, td {
+    background-color: lightslategray;
+    border: 1px solid green;
+    border-collapse: collapse;
+    padding: 8px;
+}
+.menu{
+    padding-top: 10px;
+    padding-left: 5px;
+}
