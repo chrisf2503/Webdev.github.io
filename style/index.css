@@ -1,15 +1,17 @@
-body{
-    background-color: cadetblue;
-    align-items: center;
+
+
+/* a{
+    margin-top: 15px;
 }
-nav{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+.ContactButton{
+    margin-top: 15px;
+} */
+.main{
+    height: 900px;
+    justify-content: space-between;
 }
 .header{
-    color:white;
+    font-style: oblique;
 }
 .links{
     width: 350px;
@@ -22,4 +24,14 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+.body{
+    height: auto;
+    padding-top: 20%;
+    padding-left: 16%;
+    width: 25%;
+}
+
+button{
+    border-radius: 10px;
 }
