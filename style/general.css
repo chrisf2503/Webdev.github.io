@@ -13,3 +13,21 @@ nav{
     align-items: center;
     justify-content: space-around;
 }
+.header{
+    font-style: oblique;
+}
+.links{
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.buttons{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+button{
+    border-radius: 10px;
+}

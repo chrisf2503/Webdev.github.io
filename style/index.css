@@ -1,37 +1,10 @@
-
-
-/* a{
-    margin-top: 15px;
-}
-.ContactButton{
-    margin-top: 15px;
-} */
 .main{
     height: 900px;
     justify-content: space-between;
-}
-.header{
-    font-style: oblique;
-}
-.links{
-    width: 350px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-.buttons{
-    width: 200px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
 }
 .body{
     height: auto;
     padding-top: 20%;
     padding-left: 16%;
     width: 25%;
-}
-
-button{
-    border-radius: 10px;
 }
