@@ -1,0 +1,17 @@
+
+.main{
+    display: grid;
+    gap: 25px;
+    grid-template-areas: 
+    'myArea myArea myArea myArea myArea'
+    'left bio right right right'
+    'left bio right right right';
+}
+.navBar{
+    grid-area: myArea;
+}
+.About_Resturant{
+    padding-top: 150px;
+    grid-area: bio;
+    width: 250px;
+}

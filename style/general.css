@@ -5,7 +5,6 @@ body{
     background-size: cover;
     align-items: center;
     color: white;
-    display: grid;
 }
 nav{
     display: flex;
