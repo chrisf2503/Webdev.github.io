@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/general.css">
-    <link rel="stylesheet" href="../style/about.css">
-    <title>Feast-About</title>
+    <link rel="stylesheet" href="../style/cart.css">
+    <title>cart</title>
 </head>
 <body>
     <div class="main">
@@ -25,19 +25,21 @@
                 </div>
             </nav>
         </div>
-        
-        <div class = "About_Resturant">
-            <h1 class= "about_header">Our mission</h1>
-            <p class = "about_para">
-                We are here in order to provided good quality and be able affordable 
-                to our people, we are for the people by the people. We want to give a 
-                great an friendly enviorment to those who are looking for a good time.
-                This is a famiy friendly restuant. Pets are also allowed.
-                We accept both cash and card!
-                Everyone are welcomed!
-            </p>
+        <div class="body">
+            <h1>Shopping cart</h1>
+            <table class="shopping_cart">
+                <tr class="outline">
+                    <th class="item_name">Name: </th>
+                    <th class="item_price">Price: </th>
+                    <th class="item_quantity">Quantity: </th>
+                    <th class="buttons"></th>
+                </tr>
+            </table>
         </div>
-        
     </div>
+    <script src="../backend/cart.js"></script>
+<script>
+    renderCart(); // render the cart on load
+</script>
 </body>
 </html>

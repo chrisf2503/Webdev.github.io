@@ -21,6 +21,7 @@
                     <a href="Menu.html">Menu</a>
                     <a href="About.html">About</a>
                     <button class="ContactButton"><a href="Contact.html">Contact</a></button>
+                    <a href="Cart.html">Cart</a>
                 </div>
             </nav>
         </div>
@@ -29,29 +30,46 @@
                 <tr class="title">
                     <th>Name</th>
                     <th>Price</th>
-                </tr>
-                <tr class="burger">
-                    <th>Burger</th>
-                    <th>$19.99</th>
+                    <th>Add</th>
                 </tr>
                 <tr>
-                    <th>Veggy Burger</th>
-                    <th>$21.99</th>
+                    <th class="burger_name">Burger</th>
+                    <th class="burger_price">$19.99</th>
+                    <th>
+                        <button onclick="addToCart('.burger_name', '.burger_price')">Add</button>
+                    </th>
                 </tr>
                 <tr>
-                    <th>Salman Burger</th>
-                    <th>$24.99</th>
+                    <th class="veggy_name">Veggy Burger</th>
+                    <th class="veggy_price">$21.99</th>
+                    <th>
+                        <button onclick="addToCart('.veggy_name', '.veggy_price')">Add</button>
+                    </th>
                 </tr>
                 <tr>
-                    <th>French Fries</th>
-                    <th>$6.99</th>
+                    <th class="salman_name">Salman Burger</th>
+                    <th class="salman_price">$24.99</th>
+                    <th>
+                        <button onclick="addToCart('.salman_name', '.salman_price')">Add</button>
+                    </th>
                 </tr>
                 <tr>
-                    <th>Mac and Cheese</th>
-                    <th>$7.99</th>
+                    <th class="fires_name">French Fries</th>
+                    <th class="fries_price">$6.99</th>
+                    <th>
+                        <button onclick="addToCart('.fires_name', '.fries_price')">Add</button>
+                    </th>
+                </tr>
+                <tr>
+                    <th class="macCheese_name">Mac and Cheese</th>
+                    <th class="macCheese_price">$7.99</th>
+                    <th>
+                        <button onclick="addToCart('.macCheese_name', '.macCheese_price')">Add</button>
+                    </th>
                 </tr>
             </table>
         </div>
     </div>
+    <script src="../backend/cart.js"></script>
 </body>
 </html>

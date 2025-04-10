@@ -3,18 +3,21 @@
     gap: 25px;
     grid-template-areas: 
     'nav nav nav nav nav nav'
-    'null map null contact null';
+    'null map map contact contact null'
+    'null map map contact contact null';
+
 }
 .navBar{
     grid-area: nav;
 }
+
 .img{
     grid-area: map;
-}
-.restuant{
-    width: 100px;
-    height: 250px;
 }
 .forms{
     grid-area: contact;
 } 
+.restuant{
+    width: 100px;
+    height: 250px;
+}
